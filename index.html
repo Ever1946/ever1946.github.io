@@ -11,9 +11,12 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
     />
     <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css"
       rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
     />
+
     <title>Ever Caicedo</title>
   </head>
 
@@ -50,26 +53,19 @@
 
     <!-- PRESENTACION -->
     <section
-      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start"
+      class="bg-dark text-light p-3 p-lg-0 pt-lg-3 text-center text-sm-start"
     >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
           <div>
-            <h1>Developer <span class="text-warning">Web</span></h1>
-            <p class="lead my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut libero
-              enim facilis assumenda voluptatum quas, dolorum necessitatibus hic
-              veniam incidunt illum dolore? Magni, sint aliquid repellendus nemo
-              temporibus vero voluptas a. Neque, molestias placeat eos facere
-              veniam illo dolore, eum ex earum vitae sint dolorum?
-            </p>
-            <button
+            <h1 id="machine"></h1>
+            <!--             <button
               class="btn btn-primary btn-lg"
               data-bs-toggle="modal"
               data-bs-target="#enroll"
             >
               Start the enrrollment
-            </button>
+            </button> -->
           </div>
           <img
             class="img-fluid w-50 d-none d-sm-block"
@@ -82,22 +78,10 @@
 
     <!-- ARTICULOS -->
 
-    <section class="bg-primary text-light p-5">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-          <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
-
-          <div class="input-group news-input">
-            <input type="text" class="form-control" placeholder="Enter name" />
-
-            <button class="btn btn-dark btn-lg" type="button">Button</button>
-          </div>
-        </div>
-      </div>
-    </section>
+    <div class="bg-primary text-light p-4"></div>
 
     <!-- CAJAS -->
-
+    <!-- 
     <section class="p-5">
       <div class="container">
         <div class="row text-center g-4">
@@ -148,7 +132,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- SECCION DE LECTURA -->
     <section id="learn" class="p-5">
@@ -158,22 +142,18 @@
             <img src="img/img2.svg" alt="" class="img-fluid" />
           </div>
           <div class="col-md p-5">
-            <h2>Learn Fundamentals</h2>
+            <h2>Sobre mi</h2>
             <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quo, incidunt dolor, accusamus nam pariatur natus eos dignissimos
-              libero ea animi sed maxime fugiat aperiam? Ratione perspiciatis
-              aliquid, excepturi, eveniet quis recusandae itaque iusto,
-              distinctio illo dolore expedita placeat laborum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              enim dignissimos iure ipsa! Aliquam, labore perspiciatis magnam
-              consequatur sunt ex nemo rerum libero repellendus nihil laudantium
-              velit, maiores corrupti eaque. Ipsum distinctio consequatur dolore
-              voluptas reprehenderit. Obcaecati eius iusto quidem fuga nemo,
-              culpa velit reprehenderit officia deserunt pariatur voluptates
-              ratione
+              Hola otra vez, yo soy Ever, de Bogota
+              <br /><br />
+              Soy un desarrollador web junior, en el camino de aprendizaje,
+              disfruto construyendo sitios web en gran parte desde el backend y
+              un poco de frontend, apasionado por los videojuegos, la musica y
+              por todo lo que sea animado
+              <br /><br />
+              Como principiante busco aprender algo nuevo aunque sea un gran
+              reto, llevo desarrollando un año con las siguientes tecnologias
+              <br /><br />
             </p>
             <a href="" class="btn btn-light mt-3">
               <i class="bi bi-chevron-right"></i> Read More
@@ -187,22 +167,14 @@
       <div class="container">
         <div class="row align-items-center justify-content-between">
           <div class="col-md p-5">
-            <h2>Learn React</h2>
+            <h2>Tecnologias</h2>
             <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-              quo, incidunt dolor, accusamus nam pariatur natus eos dignissimos
-              libero ea animi sed maxime fugiat aperiam? Ratione perspiciatis
-              aliquid, excepturi, eveniet quis recusandae itaque iusto,
-              distinctio illo dolore expedita placeat laborum.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-              enim dignissimos iure ipsa! Aliquam, labore perspiciatis magnam
-              consequatur sunt ex nemo rerum libero repellendus nihil laudantium
-              velit, maiores corrupti eaque. Ipsum distinctio consequatur dolore
-              voluptas reprehenderit. Obcaecati eius iusto quidem fuga nemo,
-              culpa velit reprehenderit officia deserunt pariatur voluptates
-              ratione
+              Como principiante aprendo y construyo en las siguientes
+              tecnologias
+              <br /><br />
+              Desarrollo Backend: PHP y MySQL <br /><br />
+              Desarrollo Frontend: HTML/CSS y JavaScript Frameworks:
+              Bootstrap(CSS)
             </p>
             <a href="" class="btn btn-light mt-3">
               <i class="bi bi-chevron-right"></i> Read More
@@ -509,25 +481,37 @@
               ratione dolorem, facilis suscipit assumenda magnam.
             </p>
             <form action="">
-                <div class="mb-3">
-                    <label for="first-name" class="col-form-label">
-                        First Name:
-                    </label>
-                    <input type="text" name="" id="first-name" class="form-control">
-                </div>
-                <div class="mb-3">
-                    <label for="first-name" class="col-form-label">
-                        Last Name:
-                    </label>
-                    <input type="text" name="" id="first-name" class="form-control">
-                </div><div class="mb-3">
-                    <label for="first-name" class="col-form-label">
-                        Email:
-                    </label>
-                    <input type="text" name="" id="first-name" class="form-control">
-                </div>
-
-
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name:
+                </label>
+                <input
+                  type="text"
+                  name=""
+                  id="first-name"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  Last Name:
+                </label>
+                <input
+                  type="text"
+                  name=""
+                  id="first-name"
+                  class="form-control"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label"> Email: </label>
+                <input
+                  type="text"
+                  name=""
+                  id="first-name"
+                  class="form-control"
+                />
+              </div>
             </form>
           </div>
           <div class="modal-footer">
@@ -545,17 +529,8 @@
     </div>
 
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
-
-    <script>
-      mapboxgl.accessToken =
-        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw';
-      var map = new mapboxgl.Map({
-        container: 'map',
-        style: 'mapbox://styles/mapbox/streets-v11',
-        center: [-71.060982, 42.35725],
-        zoom: 18,
-      });
-    </script>
+    <script src="https://unpkg.com/browse/simple-icons@5.4.0/index.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
