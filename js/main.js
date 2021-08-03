@@ -1,3 +1,7 @@
+function openmail(){
+  window.open("mailto:evercaicedo46@gmail.com");
+}
+
 var app = document.getElementById('machine');
 
 var typewriter = new Typewriter(app, {
@@ -13,3 +17,4 @@ typewriter
   .typeString('un Desorrallador Junior y un <strong>GEEK </strong> bastante apasionado')
   .pauseFor(1000)
   .start();
+

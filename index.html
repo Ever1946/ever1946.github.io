@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="shortcut icon" href="img/BluePc.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -47,7 +48,7 @@
               <a href="#contact" class="nav-link">Contacto</a>
             </li>
             <li class="nav-item">
-              <a href="#contact" class="nav-link">Resumen</a>
+              <a href="cv/HV - Ever Caicedo.pdf" class="nav-link">Resumen</a>
             </li>
           </ul>
         </div>
@@ -138,52 +139,31 @@
     <!-- PROYECTOS -->
 
     <section id="proyectos" class="p-5 bg-primary">
-      <div class="container">  
-
+      <div class="container"> 
+        
           <h2 class="text-center text-white">Mis Proyectos</h2>
           <p class="lead text-center text-white mb-5">
             Proyectos que se han construido desde cero con algo de ayuda
           </p>"
-          <div class="row g-5">
-
-            <div class="col-md-4">
+          <div class="row g-3">
+            
+            <div class="col-md-4  align-self-center">
               <div class="card bg-light">
                 <div class="card-body text-center p-2 d-grid">
-                  <img src="img/proyect1.jpg" class="img-thumbnail" alt="...">
-                  <a href="" type="button" class="btn btn-outline-primary btn-block m-2">GITHUB</a>
-                  <a href="" type="button" class="btn btn-outline-secondary btn-block m-2">VISTA PREVIA</a>
+                  <img src="img/proyecto1.png" class="img-thumbnail" alt="...">
+                  <a href="https://github.com/Ever1946/Reproductor-JS" type="button" class="btn btn-outline-primary btn-block m-2"> <i class="fab fa-github"></i> GITHUB</a>
+                  <a href="" type="button" class="btn btn-outline-secondary btn-block disabled m-2"> <i class="fas fa-eye"></i> VISTA PREVIA</a>
+                </div>
               </div>
             </div>
           </div>
-          
-          <div class="col-md-4">
-            <div class="card bg-light">
-              <div class="card-body p-2 text-center d-grid">
-                <img src="img/proyect1.jpg" class="img-thumbnail" alt="...">
-                <a href="" type="button" class="btn btn-outline-primary btn-block m-2">GITHUB</a>
-                <a href="" type="button" class="btn btn-outline-secondary btn-block m-2">VISTA PREVIA</a>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-4">
-            <div class="card bg-light">
-              <div class="card-body p-2 d-grid text-center">
-                <img src="img/proyect1.jpg" class="img-thumbnail" alt="...">
-                <a href="" type="button" class="btn btn-outline-primary btn-block m-2">GITHUB</a>
-                <a href="" type="button" class="btn btn-outline-secondary btn-block m-2">VISTA PREVIA</a>
-              </div>
-            </div>
-          </div>
-          
+           
         </div>
         
-      </div>
+        
+      </section>
       
-      
-    </section>
-    
-    <!-- Contacto -->
+      <!-- Contacto -->
     <section class="p-5 text-center" id="contact">
       <div class="container">
         <h2>Informacion de Contacto</h2>
@@ -194,8 +174,8 @@
         <br>
         <p class="fs-5">Sientase libre de comunicarse conmigo en:</p>
         <br>
-        <a href="https://www.linkedin.com/in/ever-caicedo-56a2671a3/" class="btn btn-outline-primary btn-rounded fs-3" role="button">LINKEDIN</a>
-        <a href="" class="btn btn-outline-dark btn-rounded fs-3" role="button">EMAIL</a>
+        <a href="https://www.linkedin.com/in/evercaicedo" class="btn btn-outline-primary btn-rounded fs-3" role="button">LINKEDIN</a>
+        <a onclick="openmail();" href=""  class="btn btn-outline-dark btn-rounded fs-3" role="button">EMAIL</a>
         <a href=""></a>
       </div>
     </section>
