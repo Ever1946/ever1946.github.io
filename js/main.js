@@ -14,7 +14,7 @@ typewriter
   .typeString('Hola, yo soy <span class="text-warning">Ever Caicedo </span>')
   .pauseFor(700)
   .deleteChars(13)
-  .typeString('un Desorrallador Junior y un <strong>GEEK </strong> bastante apasionado')
+  .typeString('un Desorrallador Junior y un <strong>GEEK </strong> bastante curioso')
   .pauseFor(1000)
   .start();
 
